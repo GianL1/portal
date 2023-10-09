@@ -250,6 +250,7 @@ span {
 
 .slideshowarea{
     height: 335px;
+    transition: all 1s;
 }
 
 .slide {
@@ -258,4 +259,39 @@ span {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+}
+.slideinfo {
+    height: 70px;
+    background-image: url(/assets/images/slideshow_bg.png);
+    background-size: auto 70px;
+    margin-top: 265px;
+}
+.slideinfo_titulo{
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+    padding-left: 20px;
+
+}
+
+.slideinfo_subtitulo{
+    font-size: 13px;
+    color: white;
+    padding-left: 20px;
+}
+
+.slidebolinhas {
+    position: absolute;
+    width: 200px;
+    height: 20px;
+}
+
+.bolinha{
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 5px;
+    cursor: pointer;
+    background-color: #CCC;
+    border-radius: 10px;
 }
